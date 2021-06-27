@@ -1,0 +1,720 @@
+
+.spinner-grow-my {
+    display: inline-block;
+    color: rgba(70, 145, 255, 0.75) !important;
+    width: 5rem;
+    height: 5rem;
+    vertical-align: text-bottom;
+    background-color: currentColor;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-animation: spinner-grow .75s linear infinite;
+    animation: spinner-grow .75s linear infinite;
+}
+.pagination {
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+}
+.cursor-pointer:hover{
+    cursor: pointer;
+}
+.p-img-thumb{
+    width: 120px;
+    height: 180px;
+}
+.p-img-thumb img{
+    width: 100%;
+    height: 100%;
+}
+.p-img{
+    width: 300px;
+    height: 452px;
+}
+.p-img img{
+    width: 100%;
+    height: 100%;
+}
+.width-125{
+    width: 125px;
+}
+.woocommerce-loop-product__thumbnail.thumb{
+    width: 160px;
+}
+.badge {
+    font-weight: 600;
+    border: 1px solid;
+    padding: .35em .5em;
+}
+.badge-warning {
+    background-color: #ff9666;
+    border-color: #ff9666;
+    color: #ffffff;
+}
+.badge-danger {
+    background-color: #fd427c;
+    border-color: #fd427c;
+}
+.badge-success {
+    background-color: #29db2d;
+    border-color: #29db2d;
+}
+.badge-primary {
+    background-color: #428bfa;
+    border-color: #428bfa;
+}
+.bootstrap-select>.dropdown-toggle {
+    position: relative;
+    width: 100%;
+    padding-bottom: 3px !important;
+    text-align: right;
+    white-space: nowrap;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 250px!important;
+}
+.text-line-trought{
+    text-decoration: line-through;
+}
+.color-red{
+    color: red;
+}
+.fz-13{
+    font-size: 13px;
+}
+.submenu{
+    overflow: hidden!important;
+    overflow-x: hidden!important;
+    overflow-y: hidden!important;
+}
+.bg-custom-blue{
+    background-color: #18A6FF;
+}
+.bg-custom-blue-second{
+    background-color: #009CFE;
+}
+.text-heder-sts-menu{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+.text-header-menu-list{
+    font-family: Roboto,  sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+
+/* Rectangle 34 */
+.text-on-home-category{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+.top-25-procent{
+    top: 25%;
+}
+.ml-26px{
+    margin-left: 26px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.home-cat-item img{
+    width: 100%;
+    height: 100%;
+}
+.home-cat-item{
+    overflow: hidden;
+}
+.text-title-home{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+
+}
+.custom-nav-link.active{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000!important;
+}
+.custom-nav-link{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+.text-category-on-product{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal!important;
+    font-size: 14px!important;
+    line-height: 16px!important;
+
+    color: #009BFD!important;
+
+}
+@media (min-width: 1200px) {
+     .product__title {
+         font-family: Roboto, sans-serif;
+         font-style: normal;
+         font-weight: 300!important;
+         font-size: 18px!important;
+         line-height: 18px!important;
+         /* identical to box height, or 100% */
+
+
+         color: #000!important;
+
+
+     }
+}
+
+.woocommerce-Price-amount.amount{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500!important;
+    font-size: 24px!important;
+    line-height: 22px!important;
+    /* identical to box height, or 92% */
+
+
+    color: #000!important;
+
+}
+.woocommerce-Price-amount.amount .woocommerce-Price-currencySymbol .text-line-trought.color-red{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500!important;
+    font-size: 13px!important;
+    line-height: 22px;
+    /* identical to box height, or 110% */
+
+
+    color: #FF6363!important;
+
+}
+
+.products .product:not(.product__card):not(.product__no-border):not(.product__list):not(.product__space) {
+    position: relative;
+    border-right: none;
+    border-bottom: none;
+}
+
+.product__inner.home{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+.m-30{
+    margin: 30px;
+}
+@media (min-width: 1200px) {
+    .products .product:not(.product__card):not(.product__no-border):not(.product__list):not(.product__space):hover::after, .products .product:not(.product__card):not(.product__no-border):not(.product__list):not(.product__space):hover::before {
+        background-color: transparent;
+    }
+}
+.ml-30{
+    margin-left: 30px;
+}
+@media (min-width: 1200px) {
+    .products .product:not(.product__card-v2):not(.product__no-border):hover {
+        box-shadow: none;
+    }
+}
+.bg-blue-cee{
+    background: #CEEBFF;
+}
+.btn-banner-1{
+    background: #008FEA;
+    border-color: #008FEA;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.btn-banner-1:hover{
+    background: #0186db;
+    border-color: #0186db;
+}
+
+.btn-banner-1:focus, .btn-banner-1.focus {
+    color: #fff;
+    background-color: #0186db;
+    border-color: #0186db;
+    box-shadow: 0 0 0 0.2rem #0186db;
+
+}
+.btn-banner-1:not(:disabled):not(.disabled):active, .btn-banner-1:not(:disabled):not(.disabled).active, .show > .btn-banner-1.dropdown-toggle {
+    color: #fff;
+    background-color: #0186db;
+    border-color: #0186db;
+}
+
+.btn-banner-1:not(:disabled):not(.disabled):active:focus, .btn-banner-1:not(:disabled):not(.disabled).active:focus, .show > .btn-banner-1.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #0186db;
+}
+
+
+.text-title-baner-1{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+.text-banner-sale-25pr{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #008FEA;
+}
+.text-banner-300som{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+/* identical to box height */
+
+
+    color: rgba(0, 143, 234, 0.5);
+
+}
+.product__inner.overflow-hidden.bg-white.home-product-day{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+.product__inner.overflow-hidden.cat-on-home{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+.text-banner-2-1{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal!important;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+
+}
+.text-banner-2-2{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500!important;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #FFFFFF;
+}
+.text-banner-2-3{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    position: absolute;
+    bottom: 38px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.js-slick-carousel.cat-one-home.products.no-gutters .slick-list .slick-track{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+@media (min-width: 992px) {
+    .pt-lg-20pr {
+        padding-top: 20% !important;
+    }
+}
+
+.banner-group1-item-3-text-1, .banner-group1-item-2-text-1, .banner-group1-item-1-text-1{
+
+    font-family: Roboto, sans-serif;
+    font-style: normal!important;
+    font-weight: normal!important;
+    font-size: 36px!important;
+    line-height: 42px!important;
+
+    color: #009BFD!important;
+
+    padding-top: 10px;
+
+}
+.banner-group1-item-2-text-1{
+    color: #fff!important;
+}
+.banner-group1-item-3-text-2, .banner-group1-item-2-text-2, .banner-group1-item-1-text-2{
+    font-family: Roboto, sans-serif;
+    font-style: normal!important;
+    font-weight: 500!important;
+    font-size: 48px!important;
+    line-height: 56px!important;
+
+    color: #009BFD!important;
+    padding-top: 10px;
+}
+.banner-group1-item-2-text-2{
+    color: #fff!important;
+}
+.banner-group1-item-3-text-3, .banner-group1-item-2-text-3, .banner-group1-item-1-text-3{
+    font-family: Roboto,sans-serif;
+    font-style: normal!important;
+    font-weight: normal!important;
+    font-size: 14px!important;
+    line-height: 16px!important;
+
+    color: rgba(0, 155, 253, 0.5) !important;
+    padding-top: 20px;
+
+}
+.banner-group1-item-2-text-3{
+    color: #fff!important;
+}
+
+.text-lh-1dot4.banner-group-1{
+    /*padding: 24px;*/
+}
+.banner-3-text-1{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 20%;
+
+    color: #FFFFFF;
+}
+.banner-3-text-2{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500!important;
+    font-size: 48px;
+    line-height: 56px;
+    padding-top: 12px;
+
+    color: #FFF;
+}
+.banner-3-text-3{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    position: absolute;
+    bottom: 60px;
+    /* identical to box height */
+
+
+    color: rgba(255, 255, 255, 0.5);
+}
+.bg-footer{
+    background: #2D3942;
+}
+
+.btn-primary-blue-search {
+    color: #fff;
+    background-color: #00CFFD;
+    border-color: #00CFFD;
+}
+h1.page-title{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000;
+
+}
+.btn-filter{
+    background: #009BFD;
+    border-radius: 3px;
+    color: #fff;
+}
+.btn-filter:hover{
+    color: #fff;
+    background: #0088dc;
+    text-decoration: none;
+}
+.btn-filter:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #018fe8;
+}
+.title-top-product{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+
+    color: #000000;
+
+}
+.price-top-product{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    /* or 110% */
+
+
+    color: #000000;
+}
+h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hover, .h1 > a:hover, .h2 > a:hover, .h3 > a:hover, .h4 > a:hover, .h5 > a:hover, .h6 > a:hover {
+    color: #009BFD;
+}
+a:hover{
+    color: #009BFD;
+}
+.product__inner.product-cart{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.woocommerce-loop-product__body.product__body .text-uppercase.text-truncate a{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #009BFD;
+
+}
+.pagination .page-item.active .page-link {
+    z-index: 3;
+    color: #fff !important;
+    background-color: #009BFD;
+    border-color: #009BFD;
+}
+.pagination .page-item .page-link:hover {
+    background-color: #009BFD;
+    border-color: #009BFD;
+    color: #fff !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.u-slick__pagination li.slick-active {
+    border: 2px solid #009BFD !important;
+    border-radius: 50%;
+}
+.u-slick__pagination li.slick-active {
+    border: 2px solid #009BFD !important;
+    border-radius: 50%;
+}
+.u-slick__pagination li.slick-active span {
+    background-color: #009BFD;
+    margin: 0.25rem;
+}
+.border.px-3.width-125{
+    border: 1px solid #000!important;
+}
+.bg-single-product{
+    background: #EFF8FF;
+}
+.u-slick__arrow:hover {
+    color: #fff;
+    background-color: #009BFD;
+    border-color: #009BFD;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #009BFD;
+    background-color: #009BFD;
+}
+.btn.btn-block.rounded-0.btn-dark{
+    color: #fff;
+    background-color: #009BFD;
+    border-color: #009BFD;
+}
+.btn-dark:focus, .btn-dark.focus {
+    color: #fff;
+    background-color: #009BFD;
+    border-color: #009BFD;
+    box-shadow: 0 0 0 0.2rem rgba(1, 137, 220, 0.53);
+}
+.btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active, .show > .btn-dark.dropdown-toggle {
+    color: #fff;
+    background-color: #009BFD;
+    border-color: #009BFD;
+}
+a.js-animation-link{
+    color: #009BFD;
+}
+a.js-animation-link.btn.btn-block.btn-outline-dark {
+    color: #009BFD;
+    border-color: #009BFD;
+}
+a.js-animation-link.btn.btn-block.btn-outline-dark:hover {
+    color: #fff;
+    border-color: #009BFD;
+    background-color: #009BFD;
+}
+.btn-outline-dark {
+    color: #009BFD;
+    border-color: #009BFD;
+}
+.btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active, .show > .btn-outline-dark.dropdown-toggle {
+    color: #fff;
+    background-color: #009BFD;
+    border-color: #009BFD;
+}
+.text-primary {
+    color: #009BFD !important;
+}
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #0090ec;
+    border-color: #0084db;
+}
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #009BFD;
+    border-color: #009BFD;
+}
+/*###################-----------1440<window<1440---------------##########################################*/
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .text-on-home-category{
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+
+}
+
+
+
+/*###################-----------768<window<1200---------------##########################################*/
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .products.list-unstyled.row.no-gutters{
+        margin-left: -30px;
+    }
+    .text-on-home-category{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .woocommerce-Price-amount.amount {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 500!important;
+        font-size: 14px!important;
+        line-height: 18px!important;
+        color: #000!important;
+    }
+    .woocommerce-Price-amount.amount .woocommerce-Price-currencySymbol .text-line-trought.color-red {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 500!important;
+        font-size: 9px!important;
+        line-height: 18px;
+        color: #FF6363!important;
+    }
+
+}
+
+
+/*###################-----------575<window<768---------------##########################################*/
+@media only screen and (min-width: 575px) and (max-width: 768px){
+    .text-on-home-category {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .woocommerce-Price-amount.amount {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 500!important;
+        font-size: 14px!important;
+        line-height: 18px!important;
+        color: #000!important;
+    }
+    .woocommerce-Price-amount.amount .woocommerce-Price-currencySymbol .text-line-trought.color-red {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 500!important;
+        font-size: 9px!important;
+        line-height: 18px;
+        color: #FF6363!important;
+    }
+}
+/*###################-----------window<575---------------##########################################*/
+@media only screen and (max-width: 575px){
+    .text-on-home-category {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .woocommerce-Price-amount.amount {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 500!important;
+        font-size: 14px!important;
+        line-height: 18px!important;
+        color: #000!important;
+    }
+    .woocommerce-Price-amount.amount .woocommerce-Price-currencySymbol .text-line-trought.color-red {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 500!important;
+        font-size: 9px!important;
+        line-height: 18px;
+        color: #FF6363!important;
+    }
+}
